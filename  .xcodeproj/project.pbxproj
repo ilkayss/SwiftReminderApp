@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E37E47432B43600A00CF7278 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37E47422B43600A00CF7278 /* AddViewController.swift */; };
 		E3F052332B40626100A34D90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F052322B40626100A34D90 /* AppDelegate.swift */; };
 		E3F052352B40626100A34D90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F052342B40626100A34D90 /* SceneDelegate.swift */; };
 		E3F052372B40626100A34D90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F052362B40626100A34D90 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E37E47422B43600A00CF7278 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		E3F0522F2B40626100A34D90 /* ReminderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReminderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F052322B40626100A34D90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3F052342B40626100A34D90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				E3F0523B2B40626400A34D90 /* Assets.xcassets */,
 				E3F0523D2B40626400A34D90 /* LaunchScreen.storyboard */,
 				E3F052402B40626400A34D90 /* Info.plist */,
+				E37E47422B43600A00CF7278 /* AddViewController.swift */,
 			);
 			path = ReminderApp;
 			sourceTree = "<group>";
@@ -206,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E3F0522A2B40626100A34D90 /* Build configuration list for PBXProject "ReminderApp" */;
+			buildConfigurationList = E3F0522A2B40626100A34D90 /* Build configuration list for PBXProject " " */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -260,6 +263,7 @@
 			files = (
 				E3F052372B40626100A34D90 /* ViewController.swift in Sources */,
 				E3F052332B40626100A34D90 /* AppDelegate.swift in Sources */,
+				E37E47432B43600A00CF7278 /* AddViewController.swift in Sources */,
 				E3F052352B40626100A34D90 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E3F0522A2B40626100A34D90 /* Build configuration list for PBXProject "ReminderApp" */ = {
+		E3F0522A2B40626100A34D90 /* Build configuration list for PBXProject " " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3F052572B40626400A34D90 /* Debug */,

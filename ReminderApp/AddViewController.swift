@@ -9,12 +9,27 @@ import UIKit
 
 class AddViewController: UIViewController {
 
+    @IBOutlet weak var lblBody: UITextField!
+    @IBOutlet weak var lblTitle: UITextField!
+    @IBOutlet weak var datePicker: UIDatePicker!
+    public var completion : ((String,String,Date)-> Void )?
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        navigationItem.rightBarButtonItem  = UIBarButtonItem(title: "Save", style: .done, target: self, action: #selector(btnSave))
     }
-    
+    @objc func btnSave(){
+        if let titletext = lblTitle.text, !titletext.isEmpty,
+           let bodytext = lblBody.text, !bodytext.isEmpty {
+            let targetDate = datePicker.date
+            
+            completion?(titletext,bodytext,targetDate)
+        }
+        
+    }
 
     /*
     // MARK: - Navigation
